@@ -1,0 +1,3 @@
+class JetPlane extends Aircraft {
+    
+}
