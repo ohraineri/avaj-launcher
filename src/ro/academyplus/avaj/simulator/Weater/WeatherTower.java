@@ -1,0 +1,3 @@
+class WeatherTower extends Tower {
+    
+}
