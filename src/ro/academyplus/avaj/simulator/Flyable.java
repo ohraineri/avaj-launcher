@@ -1,21 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Helicoper.java                                     :+:      :+:    :+:   */
+/*   Flyable.java                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/04 15:46:43 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/05 00:59:04 by mraineri         ###   ########.fr       */
+/*   Created: 2025/10/04 15:46:27 by mraineri          #+#    #+#             */
+/*   Updated: 2025/10/05 00:59:13 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package ro.academyplus.avaj.simulator.Aircraft;
-import ro.academyplus.avaj.simulator.Coordinates;
+package ro.academyplus.avaj.simulator;
 
-class Helicoper extends Aircraft {
-    public Helicoper(long id, String name, Coordinates coordinates) {
-        super(id, name, coordinates);
-    }
+abstract class Flyable {
+
     
 }

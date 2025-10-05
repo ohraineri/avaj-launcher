@@ -6,9 +6,11 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 15:46:37 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/04 15:46:38 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/04 18:10:00 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+package ro.academyplus.avaj.simulator.Weater;
 
 class Tower {
     

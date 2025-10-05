@@ -6,11 +6,11 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 22:12:43 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/05 00:10:58 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/05 00:59:04 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package src.ro.academyplus.avaj.simulator;
+package ro.academyplus.avaj.simulator;
 
 public class Coordinates {
     private int longitude;
