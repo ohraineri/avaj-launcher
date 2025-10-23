@@ -6,7 +6,7 @@ import ro.academyplus.avaj.simulator.Aircraft.JetPlane;
 
 public class JetPlaneAircraft extends AircraftFactory {
     @Override
-    protected Flyable createAircraft(long id, String name, Coordinates coordinates) {
+    public Flyable createAircraft(long id, String name, Coordinates coordinates) {
         return new JetPlane(id, name, coordinates);
     }
 }

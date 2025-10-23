@@ -6,7 +6,7 @@ import ro.academyplus.avaj.simulator.Aircraft.Helicoper;
 
 public class HelicoperAircraft extends AircraftFactory {
     @Override
-    protected Flyable createAircraft(long id, String name, Coordinates coordinates) {
+    public Flyable createAircraft(long id, String name, Coordinates coordinates) {
         return new Helicoper(id, name, coordinates);
     }
 }
