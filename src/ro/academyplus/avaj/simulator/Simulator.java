@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 15:46:38 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/23 18:45:41 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/23 19:36:43 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ class Simulator {
         System.out.println("Path: " + args[0]);
         
         try(Scanner scenarioFile = new Scanner(scenario)) {
-            while (scenarioFile.hasNextLine()) {
-                System.out.println(scenarioFile.nextLine() + "|");
+            while (scenarioFile.hasNext()) {
+                System.out.println(scenarioFile.next() + ",");
             }
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
