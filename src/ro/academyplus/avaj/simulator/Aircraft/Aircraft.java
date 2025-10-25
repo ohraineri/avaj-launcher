@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 15:46:46 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/23 19:22:25 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/25 14:27:07 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,8 @@ public class Aircraft extends Flyable {
     public void updateCondiotions() {
         
     };
+    
+    public long getID() {
+        return this.id;
+    }
 }
