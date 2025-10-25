@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 15:46:27 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/25 12:05:45 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/25 17:33:18 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,6 @@ public abstract class Flyable {
         //
     }
     public abstract void updateCondiotions();
+
+    public abstract long getID();
 }

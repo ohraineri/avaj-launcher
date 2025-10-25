@@ -6,7 +6,7 @@
 /*   By: mraineri <mraineri@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 15:46:40 by mraineri          #+#    #+#             */
-/*   Updated: 2025/10/23 20:06:07 by mraineri         ###   ########.fr       */
+/*   Updated: 2025/10/25 17:20:40 by mraineri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@ package ro.academyplus.avaj.simulator.Factory;
 import ro.academyplus.avaj.simulator.Flyable;
 import ro.academyplus.avaj.simulator.Coordinates;
 
-public abstract class AircraftFactory {
-    public abstract Flyable createAircraft(long id, String name, Coordinates coordinates);
+public class AircraftFactory {
+    public static Flyable newAircraft(String p_type, String p_name, Coordinates p_coordinates) {
+        return AircraftFactoryRegistry.create(p_type, p_name, p_coordinates);
+    }
 }
