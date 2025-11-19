@@ -6,8 +6,7 @@ import ro.academyplus.avaj.simulator.Aircraft.Baloon;
 
 public class BaloonAircraft extends AircraftFactory {
     @Override
-    public Flyable createAircraft(long id, String name, Coordinates coordinates) {
-        return new Baloon(id, name, coordinates);
+    public Flyable create(long p_id, String p_name, Coordinates p_coordinates) {
+        return new Baloon(p_id, p_name, p_coordinates);
     }
-    
 }
